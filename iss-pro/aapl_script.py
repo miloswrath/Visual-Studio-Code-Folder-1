@@ -1,6 +1,6 @@
 from doctest import script_from_examples
 import subprocess, sys
-def balls():
+def the_message():
 	applescript = """
 	set input to "im watching u"
 
