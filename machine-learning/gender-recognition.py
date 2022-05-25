@@ -49,7 +49,7 @@ class OurNeuralNetwork:
 
   def train(self, data, all_y_trues):
     learn_rate = 0.1
-    epochs = 1000 # number of times to loop through the entire dataset
+    epochs = 2000 # number of times to loop through the entire dataset
 
     for epoch in range(epochs):
       for x, y_true in zip(data, all_y_trues):
@@ -141,3 +141,4 @@ def print_gender(ind):
         print(sig_val)
 
 print_gender(kira)
+

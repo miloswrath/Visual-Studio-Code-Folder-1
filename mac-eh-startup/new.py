@@ -23,3 +23,4 @@ while True:
     sleep(900)
     notify("title", quote())
 
+    
